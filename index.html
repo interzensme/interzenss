@@ -88,6 +88,20 @@
       color: #fff;
       text-decoration: none;
     }
+    .modal-content a {
+  color: #0d6efd;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+.modal-content a:hover {
+  color: #0a58ca;
+  text-decoration: underline;
+}
+.modal-body ul {
+  margin-left: 20px;
+  line-height: 1.8;
+}
+
   </style>
 </head>
 <body>
@@ -105,6 +119,11 @@
           <li class="nav-item"><a class="nav-link" href="#">Properties</a></li>
           <li class="nav-item"><a class="nav-link" href="#">About</a></li>
           <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+           <li class="nav-item">
+    <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#trustedAgenciesModal">
+      Trusted Real Estate Agencies
+    </a>
+  </li>
         </ul>
       </div>
     </div>
@@ -275,5 +294,53 @@
 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Trusted Real Estate Agencies Modal -->
+<div class="modal fade" id="trustedAgenciesModal" tabindex="-1" aria-labelledby="trustedAgenciesLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content p-4" style="border-radius: 15px;">
+      <div class="modal-header border-0">
+        <h2 class="fw-bold" id="trustedAgenciesLabel">Trusted Real Estate Agencies in Dubai</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="text-align: justify;">
+        <p>
+          Dubai’s real estate market is powered by reputable agencies and verified investment portals. 
+          Here are some <strong>trusted real estate platforms and articles</strong> that provide valuable insights 
+          into <em>property buying, selling, and investing in Dubai</em>.
+        </p>
+
+        <ul>
+          <li><a href="https://milestoneupdate.wixsite.com/realestatedubai" target="_blank" rel="dofollow">Milestone Update — Dubai Real Estate Hub</a></li>
+          <li><a href="https://medium.com/@farhan.interzens/top-countries-investing-in-dubai-real-estate-in-2025-6a2abfff3cfc" target="_blank" rel="dofollow">Top Countries Investing in Dubai Real Estate (2025)</a></li>
+          <li><a href="http://hub.me/arLIZ" target="_blank" rel="dofollow">HubPage: Dubai Property Investments</a></li>
+          <li><a href="https://realestatedubai.zohosites.in/" target="_blank" rel="dofollow">ZohoSites: Real Estate Dubai Agency Portal</a></li>
+          <li><a href="https://milestoneupdate.wixsite.com/realestatedubai/post/investing-in-dubai-a-comprehensive-guide" target="_blank" rel="dofollow">Investing in Dubai — A Comprehensive Guide</a></li>
+          <li><a href="https://realestatedubai.zohosites.in/index-1" target="_blank" rel="dofollow">Dubai Real Estate Articles and News Updates</a></li>
+          <li><a href="https://martinanlrz966844.pointblog.net/properties-for-sale-in-dubai-buy-invest-work-with-a-top-dubai-real-estate-agency-83782251" target="_blank" rel="dofollow">Properties for Sale in Dubai — Expert Guide</a></li>
+          <li><a href="https://brendazltj956192.blogdigy.com/properties-for-sale-in-dubai-buy-invest-work-with-a-top-dubai-real-estate-agency-56822063" target="_blank" rel="dofollow">Dubai Real Estate Agency Insights — BlogDigy</a></li>
+          <li><a href="https://geraldepqx963586.blog5.net/83704342/properties-for-sale-in-dubai-buy-invest-work-with-a-top-dubai-real-estate-agency" target="_blank" rel="dofollow">Buy, Invest, Work with a Top Dubai Agency — Blog5</a></li>
+          <li><a href="https://blakebkeh939828.mpeblog.com/65420477/properties-for-sale-in-dubai-buy-invest-work-with-a-top-dubai-real-estate-agency" target="_blank" rel="dofollow">Top Property Agencies — MPE Blog</a></li>
+          <li><a href="https://elainertks829303.blog-gold.com/49272426/properties-for-sale-in-dubai-buy-invest-work-with-a-top-dubai-real-estate-agency" target="_blank" rel="dofollow">Properties for Sale in Dubai — Blog-Gold</a></li>
+          <li><a href="https://haimayvsj603342.aboutyoublog.com/43751441/properties-for-sale-in-dubai-buy-invest-work-with-a-top-dubai-real-estate-agency" target="_blank" rel="dofollow">Real Estate Investment Guide — AboutYouBlog</a></li>
+          <li><a href="https://haleemazgsj323192.blognody.com/41504441/properties-for-sale-in-dubai-buy-invest-work-with-a-top-dubai-real-estate-agency" target="_blank" rel="dofollow">Dubai Property Guide — BlogNody</a></li>
+          <li><a href="https://maetqub357227.activoblog.com/42974877/properties-for-sale-in-dubai-buy-invest-work-with-a-top-dubai-real-estate-agency" target="_blank" rel="dofollow">Top Dubai Properties — ActivoBlog</a></li>
+          <li><a href="https://bushraadps664074.pointblog.net/properties-for-sale-in-dubai-buy-invest-work-with-a-top-dubai-real-estate-agency-83787402" target="_blank" rel="dofollow">Dubai Real Estate Insights — PointBlog</a></li>
+        </ul>
+
+        <p class="mt-3">
+          Each of these sources offers deep insights into Dubai’s luxury property scene, 
+          helping you make informed decisions about <strong>investing in villas, apartments, and off-plan projects</strong>.  
+          Whether you’re an investor, first-time buyer, or market researcher — these agencies and articles 
+          reflect the best practices and trends shaping <strong>Dubai’s 2025 real estate market</strong>.
+        </p>
+
+        <div class="text-center mt-4">
+          <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Back to Home</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>
