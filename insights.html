@@ -13,9 +13,33 @@
     p { line-height: 1.8; color: #444; margin-bottom: 16px; }
     a { color: #0d6efd; text-decoration: none; }
     a:hover { text-decoration: underline; }
+    .hero-section {
+  position: relative;
+}
+.hero-overlay {
+  z-index: 2;
+  color: #fff;
+  width: 90%;
+  max-width: 800px;
+}
+.hero-section img {
+  z-index: 1;
+}
+
   </style>
 </head>
 <body>
+  <!-- Hero Section -->
+  <section class="hero-section position-relative text-center text-white mb-5">
+    <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=1600" 
+         alt="Modern Real Estate in Dubai" 
+         class="img-fluid w-100" 
+         style="height: 400px; object-fit: cover; filter: brightness(60%); border-bottom-left-radius: 12px; border-bottom-right-radius: 12px;">
+    <div class="hero-overlay position-absolute top-50 start-50 translate-middle">
+      <h1 class="fw-bold display-5">Dubai Real Estate Insights 2025</h1>
+      <p class="lead mt-2">Explore market trends, investment hotspots, and homebuyer guides across the UAE</p>
+    </div>
+  </section>
 
   <div class="container content-section">
     <h1>Dubai Real Estate Insights – 2025 Trends & Investment Guide</h1>
